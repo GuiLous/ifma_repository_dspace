@@ -1,0 +1,397 @@
+2021-12-02 08:30:20,131 INFO  org.apache.solr.servlet.SolrDispatchFilter @ SolrDispatchFilter.init()
+2021-12-02 08:30:20,144 INFO  org.apache.solr.core.SolrResourceLoader @ Using JNDI solr.home: /dspace/solr
+2021-12-02 08:30:20,145 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr/'
+2021-12-02 08:30:20,348 INFO  org.apache.solr.core.ConfigSolr @ Loading container configuration from /dspace/solr/solr.xml
+2021-12-02 08:30:20,629 INFO  org.apache.solr.core.CoreContainer @ New CoreContainer 1880823997
+2021-12-02 08:30:20,630 INFO  org.apache.solr.core.CoreContainer @ Loading cores into CoreContainer [instanceDir=/dspace/solr/]
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting socketTimeout to: 0
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting urlScheme to: null
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting connTimeout to: 0
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting maxConnectionsPerHost to: 20
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting corePoolSize to: 0
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting maximumPoolSize to: 2147483647
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting maxThreadIdleTime to: 5
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting sizeOfQueue to: -1
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting fairnessPolicy to: false
+2021-12-02 08:30:20,643 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting useRetries to: false
+2021-12-02 08:30:20,724 INFO  org.apache.solr.update.UpdateShardHandler @ Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+2021-12-02 08:30:20,726 INFO  org.apache.solr.logging.LogWatcher @ SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2021-12-02 08:30:20,727 INFO  org.apache.solr.logging.LogWatcher @ Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2021-12-02 08:30:20,728 INFO  org.apache.solr.core.CoreContainer @ Host Name: null
+2021-12-02 08:30:20,827 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr/statistics/'
+2021-12-02 08:30:20,828 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr/oai/'
+2021-12-02 08:30:20,827 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr/search/'
+2021-12-02 08:30:21,063 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2021-12-02 08:30:21,069 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2021-12-02 08:30:21,069 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2021-12-02 08:30:21,086 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2021-12-02 08:30:21,090 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2021-12-02 08:30:21,086 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2021-12-02 08:30:21,285 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2021-12-02 08:30:21,285 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2021-12-02 08:30:21,285 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2021-12-02 08:30:21,295 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr/search/conf/schema.xml
+2021-12-02 08:30:21,295 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr/oai/conf/schema.xml
+2021-12-02 08:30:21,295 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr/statistics/conf/schema.xml
+2021-12-02 08:30:21,324 INFO  org.apache.solr.schema.IndexSchema @ [statistics] Schema name=example
+2021-12-02 08:30:21,326 INFO  org.apache.solr.schema.IndexSchema @ [oai] Schema name=xoai
+2021-12-02 08:30:21,344 INFO  org.apache.solr.schema.IndexSchema @ [search] Schema name=example
+2021-12-02 08:30:21,395 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.IntField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,401 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.LongField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,406 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.FloatField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,412 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.DoubleField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,423 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableIntField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,429 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableLongField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,435 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableFloatField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,441 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableDoubleField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,445 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.DateField]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:21,515 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is id
+2021-12-02 08:30:21,516 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is AND
+2021-12-02 08:30:21,517 INFO  org.apache.solr.schema.IndexSchema @ unique key field: uid
+2021-12-02 08:30:21,538 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is item.handle
+2021-12-02 08:30:21,538 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is OR
+2021-12-02 08:30:21,539 INFO  org.apache.solr.schema.IndexSchema @ unique key field: item.handle
+2021-12-02 08:30:21,560 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is search_text
+2021-12-02 08:30:21,561 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is AND
+2021-12-02 08:30:21,562 INFO  org.apache.solr.schema.IndexSchema @ unique key field: search.uniqueid
+2021-12-02 08:30:21,667 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'statistics' using configuration from instancedir /dspace/solr/statistics/
+2021-12-02 08:30:21,676 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'oai' using configuration from instancedir /dspace/solr/oai/
+2021-12-02 08:30:21,687 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'search' using configuration from instancedir /dspace/solr/search/
+2021-12-02 08:30:21,691 INFO  org.apache.solr.core.SolrCore @ solr.NRTCachingDirectoryFactory
+2021-12-02 08:30:21,691 INFO  org.apache.solr.core.SolrCore @ solr.NRTCachingDirectoryFactory
+2021-12-02 08:30:21,691 INFO  org.apache.solr.core.SolrCore @ solr.NRTCachingDirectoryFactory
+2021-12-02 08:30:21,703 INFO  org.apache.solr.core.SolrCore @ [oai] Opening new SolrCore at /dspace/solr/oai/, dataDir=/dspace/solr/oai/data/
+2021-12-02 08:30:21,703 INFO  org.apache.solr.core.SolrCore @ [statistics] Opening new SolrCore at /dspace/solr/statistics/, dataDir=/dspace/solr/statistics/data/
+2021-12-02 08:30:21,703 INFO  org.apache.solr.core.SolrCore @ [search] Opening new SolrCore at /dspace/solr/search/, dataDir=/dspace/solr/search/data/
+2021-12-02 08:30:21,707 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@234bef66
+2021-12-02 08:30:21,707 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@234bef66
+2021-12-02 08:30:21,707 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@234bef66
+2021-12-02 08:30:21,751 INFO  org.apache.solr.core.SolrCore @ [oai] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2021-12-02 08:30:21,751 INFO  org.apache.solr.core.SolrCore @ [statistics] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2021-12-02 08:30:21,751 INFO  org.apache.solr.core.SolrCore @ [oai] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2021-12-02 08:30:21,751 INFO  org.apache.solr.core.SolrCore @ [statistics] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2021-12-02 08:30:21,751 INFO  org.apache.solr.core.SolrCore @ [search] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2021-12-02 08:30:21,751 INFO  org.apache.solr.core.SolrCore @ [search] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2021-12-02 08:30:21,788 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/oai/data
+2021-12-02 08:30:21,788 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/statistics/data
+2021-12-02 08:30:21,788 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/search/data
+2021-12-02 08:30:21,791 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=/dspace/solr/search/data/index/
+2021-12-02 08:30:21,791 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=/dspace/solr/oai/data/index/
+2021-12-02 08:30:21,791 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=/dspace/solr/statistics/data/index/
+2021-12-02 08:30:21,793 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/statistics/data/index
+2021-12-02 08:30:21,793 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/search/data/index
+2021-12-02 08:30:21,793 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/oai/data/index
+2021-12-02 08:30:21,815 INFO  org.apache.solr.core.SolrCore @ created json: solr.JSONResponseWriter
+2021-12-02 08:30:21,815 INFO  org.apache.solr.core.SolrCore @ adding lazy queryResponseWriter: solr.VelocityResponseWriter
+2021-12-02 08:30:21,816 INFO  org.apache.solr.core.SolrCore @ created velocity: solr.VelocityResponseWriter
+2021-12-02 08:30:21,816 INFO  org.apache.solr.core.SolrCore @ created json: solr.JSONResponseWriter
+2021-12-02 08:30:21,816 INFO  org.apache.solr.core.SolrCore @ adding lazy queryResponseWriter: solr.VelocityResponseWriter
+2021-12-02 08:30:21,816 INFO  org.apache.solr.core.SolrCore @ created velocity: solr.VelocityResponseWriter
+2021-12-02 08:30:21,817 INFO  org.apache.solr.core.SolrCore @ created json: solr.JSONResponseWriter
+2021-12-02 08:30:21,817 INFO  org.apache.solr.core.SolrCore @ adding lazy queryResponseWriter: solr.VelocityResponseWriter
+2021-12-02 08:30:21,817 INFO  org.apache.solr.core.SolrCore @ created velocity: solr.VelocityResponseWriter
+2021-12-02 08:30:21,823 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2021-12-02 08:30:21,823 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2021-12-02 08:30:21,823 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2021-12-02 08:30:21,824 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2021-12-02 08:30:21,824 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2021-12-02 08:30:21,824 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2021-12-02 08:30:22,008 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2021-12-02 08:30:22,009 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2021-12-02 08:30:22,009 INFO  org.apache.solr.update.processor.UpdateRequestProcessorChain @ creating updateRequestProcessorChain "uuid"
+2021-12-02 08:30:22,021 INFO  org.apache.solr.update.processor.UpdateRequestProcessorChain @ inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "uuid"
+2021-12-02 08:30:22,021 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2021-12-02 08:30:22,023 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,023 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,023 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,024 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,025 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,025 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,025 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,025 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,026 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,026 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,026 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,026 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,034 INFO  org.apache.solr.core.RequestHandlers @ created /select: solr.SearchHandler
+2021-12-02 08:30:22,034 INFO  org.apache.solr.core.RequestHandlers @ created /select: solr.SearchHandler
+2021-12-02 08:30:22,034 INFO  org.apache.solr.core.RequestHandlers @ created /select: solr.SearchHandler
+2021-12-02 08:30:22,035 INFO  org.apache.solr.core.RequestHandlers @ created /query: solr.SearchHandler
+2021-12-02 08:30:22,035 INFO  org.apache.solr.core.RequestHandlers @ created /query: solr.SearchHandler
+2021-12-02 08:30:22,035 INFO  org.apache.solr.core.RequestHandlers @ created /query: solr.SearchHandler
+2021-12-02 08:30:22,039 INFO  org.apache.solr.core.RequestHandlers @ created /get: solr.RealTimeGetHandler
+2021-12-02 08:30:22,039 INFO  org.apache.solr.core.RequestHandlers @ created /get: solr.RealTimeGetHandler
+2021-12-02 08:30:22,039 INFO  org.apache.solr.core.RequestHandlers @ created /get: solr.RealTimeGetHandler
+2021-12-02 08:30:22,040 INFO  org.apache.solr.core.RequestHandlers @ created /browse: solr.SearchHandler
+2021-12-02 08:30:22,040 INFO  org.apache.solr.core.RequestHandlers @ created /browse: solr.SearchHandler
+2021-12-02 08:30:22,040 INFO  org.apache.solr.core.RequestHandlers @ created /browse: solr.SearchHandler
+2021-12-02 08:30:22,044 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,044 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.UpdateRequestHandler
+2021-12-02 08:30:22,045 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,045 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,045 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.UpdateRequestHandler
+2021-12-02 08:30:22,045 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.UpdateRequestHandler
+2021-12-02 08:30:22,048 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,048 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,048 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,049 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,049 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,049 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: solr.JsonUpdateRequestHandler
+2021-12-02 08:30:22,049 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: solr.JsonUpdateRequestHandler
+2021-12-02 08:30:22,049 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,049 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: solr.JsonUpdateRequestHandler
+2021-12-02 08:30:22,052 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,052 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,052 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,053 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,053 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,053 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2021-12-02 08:30:22,053 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2021-12-02 08:30:22,053 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,053 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,053 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2021-12-02 08:30:22,053 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,053 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,054 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: solr.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,054 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: solr.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,054 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: solr.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,054 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,055 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,059 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: solr.admin.AdminHandlers
+2021-12-02 08:30:22,059 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: solr.admin.AdminHandlers
+2021-12-02 08:30:22,059 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: solr.admin.AdminHandlers
+2021-12-02 08:30:22,063 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: solr.PingRequestHandler
+2021-12-02 08:30:22,063 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: solr.PingRequestHandler
+2021-12-02 08:30:22,063 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: solr.PingRequestHandler
+2021-12-02 08:30:22,066 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2021-12-02 08:30:22,066 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2021-12-02 08:30:22,066 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2021-12-02 08:30:22,084 INFO  org.apache.solr.core.RequestHandlers @ created /replication: solr.ReplicationHandler
+2021-12-02 08:30:22,084 INFO  org.apache.solr.core.RequestHandlers @ created /replication: solr.ReplicationHandler
+2021-12-02 08:30:22,084 INFO  org.apache.solr.core.RequestHandlers @ created /replication: solr.ReplicationHandler
+2021-12-02 08:30:22,085 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,085 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,085 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,085 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,085 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,086 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /spell ignoring: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,085 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ created /tvrh: solr.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ created /terms: solr.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,086 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2021-12-02 08:30:22,087 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /spell ignoring: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,087 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,087 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,087 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,087 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,088 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /spell ignoring: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ created /tvrh: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ created /tvrh: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ created /terms: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,088 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2021-12-02 08:30:22,089 INFO  org.apache.solr.core.RequestHandlers @ created /terms: solr.SearchHandler
+2021-12-02 08:30:22,089 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,089 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2021-12-02 08:30:22,113 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,113 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,113 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,117 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,117 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,117 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,118 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,118 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,118 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,118 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,119 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,119 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,120 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,120 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,120 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,120 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,121 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,121 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,121 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,122 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,122 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,146 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 10000ms; if 10000 uncommited docs 
+2021-12-02 08:30:22,146 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2021-12-02 08:30:22,168 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 900000ms; if 10000 uncommited docs 
+2021-12-02 08:30:22,168 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2021-12-02 08:30:22,184 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 10000ms; if 10000 uncommited docs 
+2021-12-02 08:30:22,184 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2021-12-02 08:30:22,218 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/dspace/solr/oai/data/index lockFactory=NativeFSLockFactory@/dspace/solr/oai/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2021-12-02 08:30:22,219 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 1
+2021-12-02 08:30:22,233 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@bc314a[oai] main
+2021-12-02 08:30:22,234 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/dspace/solr/statistics/data/index lockFactory=NativeFSLockFactory@/dspace/solr/statistics/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2021-12-02 08:30:22,234 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 5
+2021-12-02 08:30:22,248 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: /dspace/solr/oai/conf
+2021-12-02 08:30:22,248 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=/dspace/solr/oai/conf}
+2021-12-02 08:30:22,252 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/dspace/solr/search/data/index lockFactory=NativeFSLockFactory@/dspace/solr/search/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_12,generation=38}
+2021-12-02 08:30:22,253 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 38
+2021-12-02 08:30:22,266 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=/dspace/solr/oai/conf
+2021-12-02 08:30:22,273 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=/dspace/solr/oai/conf
+2021-12-02 08:30:22,273 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2021-12-02 08:30:22,273 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2021-12-02 08:30:22,273 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,291 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,293 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,306 INFO  org.apache.solr.spelling.DirectSolrSpellChecker @ init: {name=default,field=item.handle,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-12-02 08:30:22,317 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,319 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: /dspace/solr/oai/conf/elevate.xml
+2021-12-02 08:30:22,339 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@672257fd[statistics] main
+2021-12-02 08:30:22,340 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: /dspace/solr/statistics/conf
+2021-12-02 08:30:22,340 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=/dspace/solr/statistics/conf}
+2021-12-02 08:30:22,340 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=/dspace/solr/statistics/conf
+2021-12-02 08:30:22,342 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=/dspace/solr/statistics/conf
+2021-12-02 08:30:22,342 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2021-12-02 08:30:22,342 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2021-12-02 08:30:22,342 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,348 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,348 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,349 INFO  org.apache.solr.spelling.DirectSolrSpellChecker @ init: {name=default,field=id,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-12-02 08:30:22,349 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,349 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: /dspace/solr/statistics/conf/elevate.xml
+2021-12-02 08:30:22,375 INFO  org.apache.solr.handler.ReplicationHandler @ Commits will be reserved for  10000
+2021-12-02 08:30:22,375 INFO  org.apache.solr.handler.ReplicationHandler @ Commits will be reserved for  10000
+2021-12-02 08:30:22,376 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@672257fd[statistics] main{StandardDirectoryReader(segments_5:9:nrt _0(4.10.4):C1 _1(4.10.4):C1 _2(4.10.4):C7 _3(4.10.4):C8)}
+2021-12-02 08:30:22,376 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@bc314a[oai] main{StandardDirectoryReader(segments_1:1:nrt)}
+2021-12-02 08:30:22,456 INFO  org.apache.solr.core.SolrCore @ [oai] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=77 
+2021-12-02 08:30:22,457 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2021-12-02 08:30:22,457 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,458 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,458 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: wordbreak
+2021-12-02 08:30:22,459 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=81 
+2021-12-02 08:30:22,460 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2021-12-02 08:30:22,460 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,460 INFO  org.apache.solr.core.SolrCore @ [oai] Registered new searcher Searcher@bc314a[oai] main{StandardDirectoryReader(segments_1:1:nrt)}
+2021-12-02 08:30:22,460 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,460 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: wordbreak
+2021-12-02 08:30:22,465 INFO  org.apache.solr.core.CoreContainer @ registering core: oai
+2021-12-02 08:30:22,466 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr/authority/'
+2021-12-02 08:30:22,468 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@672257fd[statistics] main{StandardDirectoryReader(segments_5:9:nrt _0(4.10.4):C1 _1(4.10.4):C1 _2(4.10.4):C7 _3(4.10.4):C8)}
+2021-12-02 08:30:22,470 INFO  org.apache.solr.core.CoreContainer @ registering core: statistics
+2021-12-02 08:30:22,511 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2021-12-02 08:30:22,514 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2021-12-02 08:30:22,524 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@13e2972a[search] main
+2021-12-02 08:30:22,527 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: /dspace/solr/search/conf
+2021-12-02 08:30:22,527 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=/dspace/solr/search/conf}
+2021-12-02 08:30:22,528 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=/dspace/solr/search/conf
+2021-12-02 08:30:22,529 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=/dspace/solr/search/conf
+2021-12-02 08:30:22,529 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2021-12-02 08:30:22,529 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2021-12-02 08:30:22,529 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,543 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Registering newSearcher listener for spellchecker: default
+2021-12-02 08:30:22,543 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,543 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,543 INFO  org.apache.solr.spelling.DirectSolrSpellChecker @ init: {name=default,field=search_text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-12-02 08:30:22,544 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,544 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: /dspace/solr/search/conf/elevate.xml
+2021-12-02 08:30:22,556 INFO  org.apache.solr.handler.ReplicationHandler @ Commits will be reserved for  10000
+2021-12-02 08:30:22,556 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@13e2972a[search] main{StandardDirectoryReader(segments_12:110:nrt _9(4.10.4):C1 _h(4.10.4):C1 _i(4.10.4):C1 _o(4.10.4):C1 _r(4.10.4):C1 _s(4.10.4):C1 _t(4.10.4):C1 _u(4.10.4):C1)}
+2021-12-02 08:30:22,564 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2021-12-02 08:30:22,564 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr/authority/conf/schema.xml
+2021-12-02 08:30:22,573 INFO  org.apache.solr.schema.IndexSchema @ [authority] Schema name=example
+2021-12-02 08:30:22,612 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is value
+2021-12-02 08:30:22,613 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is OR
+2021-12-02 08:30:22,613 INFO  org.apache.solr.schema.IndexSchema @ unique key field: id
+2021-12-02 08:30:22,626 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'authority' using configuration from instancedir /dspace/solr/authority/
+2021-12-02 08:30:22,626 INFO  org.apache.solr.core.SolrCore @ solr.StandardDirectoryFactory
+2021-12-02 08:30:22,631 INFO  org.apache.solr.core.SolrCore @ [authority] Opening new SolrCore at /dspace/solr/authority/, dataDir=/dspace/solr/authority/data/
+2021-12-02 08:30:22,631 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@234bef66
+2021-12-02 08:30:22,632 INFO  org.apache.solr.core.SolrCore @ [authority] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2021-12-02 08:30:22,632 INFO  org.apache.solr.core.SolrCore @ [authority] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr rocks,start=0,rows=10}, {q=static firstSearcher warming query from solrconfig.xml}]}
+2021-12-02 08:30:22,632 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/authority/data
+2021-12-02 08:30:22,633 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=/dspace/solr/authority/data/index/
+2021-12-02 08:30:22,633 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for /dspace/solr/authority/data/index
+2021-12-02 08:30:22,634 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2021-12-02 08:30:22,634 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2021-12-02 08:30:22,638 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2021-12-02 08:30:22,639 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,639 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,639 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,639 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,640 INFO  org.apache.solr.core.RequestHandlers @ created standard: solr.SearchHandler
+2021-12-02 08:30:22,641 INFO  org.apache.solr.core.RequestHandlers @ created dismax: solr.SearchHandler
+2021-12-02 08:30:22,641 INFO  org.apache.solr.core.RequestHandlers @ created partitioned: solr.SearchHandler
+2021-12-02 08:30:22,641 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2021-12-02 08:30:22,642 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,642 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: org.apache.solr.handler.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,642 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: org.apache.solr.handler.extraction.ExtractingRequestHandler
+2021-12-02 08:30:22,642 INFO  org.apache.solr.core.RequestHandlers @ created /terms: org.apache.solr.handler.component.SearchHandler
+2021-12-02 08:30:22,642 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2021-12-02 08:30:22,643 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2021-12-02 08:30:22,646 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.XmlUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,647 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,647 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.XmlUpdateRequestHandler
+2021-12-02 08:30:22,650 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.BinaryUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2021-12-02 08:30:22,651 INFO  org.apache.solr.core.RequestHandlers @ created /update/javabin: solr.BinaryUpdateRequestHandler
+2021-12-02 08:30:22,652 INFO  org.apache.solr.core.SolrCore @ [search] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=96 
+2021-12-02 08:30:22,652 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2021-12-02 08:30:22,652 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,653 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,653 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: wordbreak
+2021-12-02 08:30:22,654 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@13e2972a[search] main{StandardDirectoryReader(segments_12:110:nrt _9(4.10.4):C1 _h(4.10.4):C1 _i(4.10.4):C1 _o(4.10.4):C1 _r(4.10.4):C1 _s(4.10.4):C1 _t(4.10.4):C1 _u(4.10.4):C1)}
+2021-12-02 08:30:22,656 INFO  org.apache.solr.core.CoreContainer @ registering core: search
+2021-12-02 08:30:22,659 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2021-12-02 08:30:22,663 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2021-12-02 08:30:22,663 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.CSVRequestHandler
+2021-12-02 08:30:22,663 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2021-12-02 08:30:22,663 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2021-12-02 08:30:22,663 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: org.apache.solr.handler.admin.AdminHandlers
+2021-12-02 08:30:22,666 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: PingRequestHandler
+2021-12-02 08:30:22,666 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2021-12-02 08:30:22,667 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,667 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,668 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,668 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,669 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,669 WARN  org.apache.solr.handler.UpdateRequestHandler @ Using deprecated class: XmlUpdateRequestHandler -- replace with UpdateRequestHandler
+2021-12-02 08:30:22,670 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2021-12-02 08:30:22,670 WARN  org.apache.solr.handler.UpdateRequestHandler @ Using deprecated class: BinaryUpdateRequestHandler -- replace with UpdateRequestHandler
+2021-12-02 08:30:22,673 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 10000ms; if 10000 uncommited docs 
+2021-12-02 08:30:22,673 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2021-12-02 08:30:22,676 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/dspace/solr/authority/data/index,segFN=segments_1,generation=1}
+2021-12-02 08:30:22,676 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 1
+2021-12-02 08:30:22,676 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@45cd2be6[authority] main
+2021-12-02 08:30:22,677 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: /dspace/solr/authority/conf
+2021-12-02 08:30:22,677 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=/dspace/solr/authority/conf}
+2021-12-02 08:30:22,677 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=/dspace/solr/authority/conf
+2021-12-02 08:30:22,677 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=/dspace/solr/authority/conf
+2021-12-02 08:30:22,678 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2021-12-02 08:30:22,678 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2021-12-02 08:30:22,678 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2021-12-02 08:30:22,680 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2021-12-02 08:30:22,680 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: /dspace/solr/authority/conf/elevate.xml
+2021-12-02 08:30:22,688 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@45cd2be6[authority] main{StandardDirectoryReader(segments_1:1:nrt)}
+2021-12-02 08:30:22,690 INFO  org.apache.solr.core.SolrCore @ [authority] webapp=null path=null params={q=solr+rocks&distrib=false&start=0&rows=10&event=firstSearcher} hits=0 status=0 QTime=2 
+2021-12-02 08:30:22,693 INFO  org.apache.solr.core.CoreContainer @ registering core: authority
+2021-12-02 08:30:22,695 INFO  org.apache.solr.servlet.SolrDispatchFilter @ user.dir=/
+2021-12-02 08:30:22,695 INFO  org.apache.solr.servlet.SolrDispatchFilter @ SolrDispatchFilter.init() done
+2021-12-02 08:30:22,697 INFO  org.apache.solr.core.SolrCore @ [authority] webapp=null path=null params={q=static+firstSearcher+warming+query+from+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=7 
+2021-12-02 08:30:22,697 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2021-12-02 08:30:22,697 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2021-12-02 08:30:22,700 INFO  org.apache.solr.core.SolrCore @ [authority] Registered new searcher Searcher@45cd2be6[authority] main{StandardDirectoryReader(segments_1:1:nrt)}
